@@ -27,12 +27,17 @@
     text-align: center;
 }
 
-@media(max-width:580px){
-    .second-page-mobile{
-        margin-left: 125px;
-        
-    }
+.second-page-mobile{
+    margin-left: auto;
+    margin-right: auto;  
 }
+
+ @media(max-width:580px){
+    .second-page-mobile{
+        margin-left: auto;
+        margin-right: auto; 
+    }
+} 
 
 @media(min-width:570px) and (max-width:800px){
     .second-page-mobile-img{
